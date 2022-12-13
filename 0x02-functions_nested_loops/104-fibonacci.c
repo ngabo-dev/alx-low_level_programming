@@ -22,7 +22,7 @@ int numlength(int num)
 		length += 1;
 	}
 
-	Return (length);
+	return (length);
 }
 /**
  *  *main - prints the first 98 fibonaci sequences
