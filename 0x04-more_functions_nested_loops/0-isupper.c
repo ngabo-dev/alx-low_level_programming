@@ -16,5 +16,3 @@ int _uppercase(int c)
 		return (0);
 	}
 }
-
-
