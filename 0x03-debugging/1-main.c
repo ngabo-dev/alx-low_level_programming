@@ -19,7 +19,7 @@ int main(void)
 	 *	putchar(i);
 	 *}
 	 */
-	printf("Infinite loop Avoided! \\o\/\n");
+	printf("Infinite loop Avoided! \\o/\n");
 
 	return (0);
 }
