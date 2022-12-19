@@ -2,7 +2,7 @@
 
 /**
  * _atoi - Convert string to an interger.
- * @: Pointer to a character string.
+ * @s: Pointer to a character string.
  *
  * Return: void.
  */
