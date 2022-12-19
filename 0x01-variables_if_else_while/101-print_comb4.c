@@ -1,11 +1,10 @@
 #include <stdio.h>
-
 /**
- * main - Entry point
+ * main - program that prints all possible different combinations
+ * of thress digits.
  *
- * Return: Always 0 (Success)
+ * Return: 0
  */
-
 int main(void)
 {
 	int i;
@@ -22,20 +21,22 @@ int main(void)
 				{
 					if (j > n)
 					{
-						putchar(i);
-						putchar(n);
-						putchar(j);
-						if (i == 55 && n == 56 && j == 57)
-						{
-							break;
-						}
-						putchar(',');
-						putchar(' ');
+					putchar(i);
+					putchar(n);
+					putchar(j);
+					if (i == 55 && n == 56 && j == 57)
+					{
+						break;
+					}
+
+					putchar(',');
+					putchar(' ');
 					}
 				}
 			}
 		}
 	}
+
 	putchar('\n');
 	return (0);
 }
