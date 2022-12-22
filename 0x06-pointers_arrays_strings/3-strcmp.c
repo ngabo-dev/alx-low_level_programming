@@ -1,4 +1,4 @@
-#include "mani.h"
+#include "main.h"
 
 /**
  * _strcmp - Function which compare two strings and
