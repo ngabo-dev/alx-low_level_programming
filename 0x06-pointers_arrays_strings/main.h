@@ -4,7 +4,7 @@
 /**
  *
  * File: main.h
- * Auth: Ngabo-dev(NIYONGABO Jean Pierre)
+ * Auth: Ngabo tech(NIYONGABO Jean Pierre)
  *
  * Desk: Header file containing prototypes for all functions
  *
