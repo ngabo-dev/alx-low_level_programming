@@ -2,8 +2,8 @@
 
 /**
  * _evaluate - evaluate function sqrt
- * @i: interger
- * @n: interger
+ * @i: integer
+ * @n: integer
  * Return: evaluate sqrt
  */
 
