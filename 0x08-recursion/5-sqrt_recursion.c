@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * _sqrt_recursion - evaluate function sqrt
- * @i: integer
- * @n: integer
- * Return: suare root of a number
+ * _evaluate - evaluate function sqrt
+ * @i: interger
+ * @n: interger
+ * Return: evaluate sqrt
  */
 
 int _evaluate(int i, int n)
