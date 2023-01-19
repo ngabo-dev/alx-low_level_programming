@@ -1,32 +1,23 @@
-#include <stdio.h>
+#include <stddef.h>
+/**
+ * array_iterator - function that executes function given as param
+ * @array: array of element
+ * @size: size of array
+ * @action: function pointer
+ *
+ * Return: void
+ */
 
-void array_iterator(int *array, size_t size, void (*action)(int)) {
-    for (size_t i = 0; i < size; i++) {
-        action(array[i]);
-    }
-}
+void array_iterator(int *array, size_t size, void (*action)(int))
+{
+	unsigned int i;
 
-void print_int(int num) {
-    printf("%d ", num);
-}
-
-void double_int(int *num) {
-    *num = *num * 2;
-}
-
-int main() {
-    int array[] = {1, 2, 3, 4, 5};
-    size_t size = sizeof(array) / sizeof(array[0]);
-
-    printf("Original array: ");
-    array_iterator(array, size, print_int);
-    printf("\n");
-
-    array_iterator(array, size, double_int);
-    printf("Doubled array: ");
-    array_iterator(array, size, print_int);
-    printf("\n");
-
-    return 0;
+	if (array && size > 0 && action)
+	{
+		for (i = 0; i < size; i++)
+		{
+			(*action)(array[i]);
+		}
+	}
 }
 
