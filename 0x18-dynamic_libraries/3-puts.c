@@ -1,5 +1,10 @@
 #include "main.h"
 
+
+int main()
+{
+
+}
 /**
  * _puts - write a function that prints a string, followed by a new line, to
  * stdout.
