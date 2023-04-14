@@ -1,3 +1,9 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include "hash_tables.h"
+
+
 /*
  * File: 100-sorted_hash_table.c
  * Auth: NIYONGABO Jean Pierre
